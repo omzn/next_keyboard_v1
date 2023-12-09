@@ -9,7 +9,6 @@ enum {_BASE, _L1, _L2, _L3};
 #define CM_LNG1 RCMD_T(KC_LNG1)
 #define FN      MO(_L1)
 #define FN_LOCK TG(_L2)
-#define FN_NUM  LT(_L1,KC_NUM)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
