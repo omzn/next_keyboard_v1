@@ -18,13 +18,6 @@
 
 #define OLED_FONT_H "keyboards/next_keyboard_v1/glcdfont.c"
 
-#define WS2812_DI_PIN GP1
-#define WS2812_PIO_USE_PIO1
-#define RGBLED_NUM 90
-#define NOP_FUDGE 0.4
-
-#define RGBLIGHT_EFFECT_BREATHING
-
 //#define ENABLE_COMPILE_KEYCODE
 /*
  * Feature disable options
